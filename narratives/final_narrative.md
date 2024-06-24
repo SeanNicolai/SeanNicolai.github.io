@@ -1,5 +1,3 @@
-### final_narrative.md
-
 # Personal Narrative: Enhancing the Rescue Animal Management System
 
 ## Introduction
