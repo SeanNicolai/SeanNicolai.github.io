@@ -3,6 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -10,6 +12,12 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+
+header .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
 }
 
 header h1 {
@@ -31,10 +39,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+.container {
+    max-width: 1100px;
+    margin: auto;
     padding: 2rem;
-    margin: 1rem auto;
-    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
 }
 
 footer {
