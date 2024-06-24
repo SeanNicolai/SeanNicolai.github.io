@@ -12,6 +12,10 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header .container {
@@ -46,6 +50,7 @@ nav ul li a {
     padding: 2rem;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem; /* Added to provide space for fixed header */
 }
 
 section {
